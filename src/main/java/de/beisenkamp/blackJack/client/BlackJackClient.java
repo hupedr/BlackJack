@@ -5,5 +5,6 @@ public class BlackJackClient {
 
         System.out.println("Hello world!!!");
         System.out.println("Hello Nelly! :)");
+        System.out.println("Hello Nelly!");
     }
 }
