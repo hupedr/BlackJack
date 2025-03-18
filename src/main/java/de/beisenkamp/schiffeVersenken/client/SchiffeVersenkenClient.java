@@ -1,6 +1,6 @@
-package de.beisenkamp.blackJack.client;
+package de.beisenkamp.schiffeVersenken.client;
 
-public class BlackJackClient {
+public class SchiffeVersenkenClient {
     public static void main(String[] args) {
 
         System.out.println("Hello world!!!");
