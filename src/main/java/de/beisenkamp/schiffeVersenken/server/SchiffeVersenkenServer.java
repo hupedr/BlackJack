@@ -1,19 +1,29 @@
 package de.beisenkamp.schiffeVersenken.server;
 
 public class SchiffeVersenkenServer {
+    Spielfeld spielfeld;
+    Protocol protocol;
     public static void main(String[] args)
     {
+
 
     }
 
     public SchiffeVersenkenServer()
     {
-
+        protocol = new Protocol();
+        spielfeld = new Spielfeld();
     }
 
-    public void Zentrale()
+    public void Zentrale(String message)
     {
-        //ruft mit caese andere methoden auf
+        switch (message)
+        {
+            case "ajajaj":
+
+                break;
+        }
+
     }
 
     public void Anmeldung()
@@ -26,9 +36,9 @@ public class SchiffeVersenkenServer {
 
     }
 
-    public void SchiffePlatzieren()
+    public void SchiffePlatzieren(String pos1, String pos2)
     {
-
+        spielfeld.schiffPlatzieren(pos1,pos2);
     }
 
     public void Zug()
